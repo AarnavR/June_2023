@@ -19,7 +19,7 @@ public class ReactionGame {
         String text = scanner.nextLine();
         if (text.equals("According to the National Center for Voice and Speech, the average conversation rate for English speakers in the United States is about 150 wpm.")){
             final long endTime = System.currentTimeMillis();
-            System.out.println("You took " + ((double)endTime - (double)startTime)/ ((double)1000 * 24) + " seconds per each word");
+            System.out.println("You took " + ( 60 * ((double)endTime - (double)startTime))/ ((double)1000 * 24) + " seconds per each word");
         } else {
             System.out.println("You mispelled something :( )");
         }

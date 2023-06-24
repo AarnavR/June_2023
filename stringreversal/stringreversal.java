@@ -2,7 +2,7 @@ package stringreversal;
 import java.util.*;
 
 
-public class stringreversal {
+public class Stringreversal {
     static String reverse(String in){
         String s = "";
         for (int i = 0; i < in.length(); i++){
